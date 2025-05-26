@@ -42,3 +42,6 @@ Get-Content id_rsa.pub | Set-Clipboard
 * Register In [Hyperbolic Dashboard](https://app.hyperbolic.xyz/invite/gqYoHbUk7)
 * then, Visit **Settings**
 * Create a new Public SSH key and paste your pubkey into it and save it!
+
+# Step 3. Rent a GPU & Get your GPU's SSH Command
+* I use [Vast.ai](https://cloud.vast.ai/?ref_id=228875) & [Hyperbolic](https://app.hyperbolic.xyz/invite/gqYoHbUk7) since they have **crypto payments**
