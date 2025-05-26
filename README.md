@@ -31,3 +31,9 @@ cd $env:USERPROFILE\.ssh
 Get-Content id_rsa.pub | Set-Clipboard
 ```
 * Your public key is now copied into your `clipboard`
+
+# Step 2. Add SSH KEY to GPU Provider Site
+### [Vast.ai:](https://cloud.vast.ai/?ref_id=228875) (Recommended for better performance)
+* 1- Register in [Vast.ai](https://cloud.vast.ai/?ref_id=228875)
+* 2- Create an SSH key session by going to `three-lines > Keys > SSH Keys` [here](https://cloud.vast.ai/manage-keys/)
+* 3- Paste Public SSH key created in your local pc in previous steps.
