@@ -26,3 +26,8 @@ Enter same passphrase again:
 ```
 cd $env:USERPROFILE\.ssh
 ```
+### 4- Copy the `id_rsa.pub` file content in clipboard
+```
+Get-Content id_rsa.pub | Set-Clipboard
+```
+* Your public key is now copied into your `clipboard`
