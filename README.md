@@ -37,3 +37,8 @@ Get-Content id_rsa.pub | Set-Clipboard
 * 1- Register in [Vast.ai](https://cloud.vast.ai/?ref_id=228875)
 * 2- Create an SSH key session by going to `three-lines > Keys > SSH Keys` [here](https://cloud.vast.ai/manage-keys/)
 * 3- Paste Public SSH key created in your local pc in previous steps.
+
+### [Hyperbolic:](https://app.hyperbolic.xyz/invite/gqYoHbUk7)
+* Register In [Hyperbolic Dashboard](https://app.hyperbolic.xyz/invite/gqYoHbUk7)
+* then, Visit **Settings**
+* Create a new Public SSH key and paste your pubkey into it and save it!
