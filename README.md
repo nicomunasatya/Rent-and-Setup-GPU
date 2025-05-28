@@ -45,3 +45,12 @@ Get-Content id_rsa.pub | Set-Clipboard
 
 # Step 3. Rent a GPU & Get your GPU's SSH Command
 * I use [Vast.ai](https://cloud.vast.ai/?ref_id=228875) & [Hyperbolic](https://app.hyperbolic.xyz/invite/gqYoHbUk7) since they have **crypto payments**
+* I recommend Vast because of better performance
+### [Vast.ai:](https://cloud.vast.ai/?ref_id=228875)
+* 1- Select Pytorch(Vast) template [here](https://cloud.vast.ai/?ref_id=62897&creator_id=62897&name=PyTorch%20(Vast))
+* 2- Choose a supported GPU (I recommend =24GB GPU vRAM, but Gensyn now supporting even 8GB GPU vRAM)
+* 3- Increase `Disk Space` slidebar to `50GB`
+* 4- Top-up credits with crypto and rent it.
+* 5- Go to [instances](https://cloud.vast.ai/instances/), refresh the page, click on `key` button.
+* 6- If you don't see a ssh command in `Direct ssh connect:` section, then you have to press on Add SSH Key.
+* 7- Copy SSH Command, and Replace `-L 3000:localhost:3000` in front of the command.
