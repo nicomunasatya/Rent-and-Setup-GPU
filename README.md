@@ -54,3 +54,11 @@ Get-Content id_rsa.pub | Set-Clipboard
 * 5- Go to [instances](https://cloud.vast.ai/instances/), refresh the page, click on `key` button.
 * 6- If you don't see a ssh command in `Direct ssh connect:` section, then you have to press on Add SSH Key.
 * 7- Copy SSH Command, and Replace `-L 3000:localhost:3000` in front of the command.
+
+### [Hyperbolic:](https://app.hyperbolic.xyz/invite/gqYoHbUk7)
+* 1- Choose a GPU (.eg RTX 4090) [here](https://app.hyperbolic.xyz/invite/gqYoHbUk7) by going to `Home > GPU List ` and click on `Rent`
+* 2- Make sure you select `1` as `GPU Count`.
+* 3- Select `pytorch` as `Template`.
+* 4- Rent it.
+* 5- By clicking on your gpu instance, if gives you a SSH command to connect to your GPU terminal.
+* 5- Add this flag: `-L 3000:localhost:3000` in front of your Hyperbolic's SSH command, this will allow you to access to port 3000 on your local system.
