@@ -62,3 +62,13 @@ Get-Content id_rsa.pub | Set-Clipboard
 * 4- Rent it.
 * 5- By clicking on your gpu instance, if gives you a SSH command to connect to your GPU terminal.
 * 5- Add this flag: `-L 3000:localhost:3000` in front of your Hyperbolic's SSH command, this will allow you to access to port 3000 on your local system.
+
+# Step 4. Connect to GPU server using SSH Command
+* You must get a command like this. For example, it's hyperbolic's SSH Command:
+```
+ssh ubuntu@xxxxxx.hyperbolic.xyz -p 312452
+```
+* You can add this flag: `-L 3000:localhost:3000` in front of you command to get access to apps running on port 3000 from your local pc.
+* Paste and Enter the command you copied in `Windows PowerShell` to access your server.
+* Enter the password you set for SSH public key (if you set before) and press enter to open your GPU terminal
+* Optionaly, you can add this flag: `-i $env:USERPROFILE\.ssh\id_rsa` in front of your command, to specify the ssh privatekey file.
